@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="grid-container">
+        <h1>Update Information</h1>
+        <div class="image-container">
+            <img src="https://picsum.photos/200" class="avatar">
+            <button>Select image</button>
+        </div>
+        <form action="">
+            <h2>Use the form below to edit your Information</h2>
+            <label for="first-name">First name:</label>
+            <input id="first-name" type="text"><br>
+            <label for="last-name">Last name:</label>
+            <input id="last-name" type="text"><br>
+            <label for="favorite-sports">Favorite sport:</label>
+            <select id="favorite-sports" name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select><br>
+            <label for="gender"></label>Gender:</label>
+            <input type="radio" value="male">male
+            <input type="radio" value="female">female
+            <input type="radio" value="notshure">not shure<br>
+            <label for="state-resident">State resident:</label>
+            <select id="state-resident" name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select><br>
+            <input type="checkbox" value="adult">21 or older<br>
+            <label for="car-model">Car models owned:</label>
+            <input type="checkbox" value="Ford">Ford
+            <input type="checkbox" value="Chrysler">Chrysler
+            <input type="checkbox" value="Toyota">Toyota
+            <input type="checkbox" value="Nissan">Nissan<br>
+            <button>Save changes</button>
+        </form>
+    </div>
 </body>
 </html>
